@@ -2,7 +2,10 @@
     "routes": [
         {
             "src": "/info",
-            "dest": "/api/info.ts"
+            "dest": "/api/info.ts",
+            "headers": {
+                "Access-Control-Allow-Origin": "*"
+            }
         },
         {
             "src": "/",
