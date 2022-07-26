@@ -1,0 +1,15 @@
+{
+    "routes": [
+        {
+            "src": "/info",
+            "dest": "/api/info.ts"
+        },
+        {
+            "src": "/",
+            "status": 302,
+            "headers": {
+                "Location": "https://github.com/renbaoshuo/vercel-plausible-stats-api"
+            }
+        }
+    ]
+}
